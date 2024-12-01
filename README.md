@@ -1,16 +1,9 @@
-# Demo application for Makerfabs MaTouch and Sunton 7 inch ESP32-S3 displays with ESP-IDF and LVGL
+# ESP32-based control of slave clocks with the L293D H-bridge driver
 
-This is a small demo for the Sunton 7 inch display and the two MaTouch 7 inch displays from Makerfabs. It uses just LVGL, no other GFX library is needed!
+Using an ESP32 and an L293D H-bridge driver, I have put an old Siemens slave clock back into operation. In this article, I describe the technology and implementation step by step - a project for anyone interested in electronics and slave clocks.
 
-You will see 
+![Siemens-Uhr-klein-DSCF5847](https://github.com/user-attachments/assets/7dc2e205-adf7-4df3-b887-2f9ec4e397cf)
 
-- How to use the ESP-IDF LCD driver
-- How to configure GT911 resolution
-- How to control with PWM the brightness of the display
-- How to configure LVGL
-- Change screen brightness with a slider
-- Change a GUI element from a task
+![Prototyp-Nebenuhr-Steuerung-Halterung-klein-DSCF5889](https://github.com/user-attachments/assets/cb4e7ae4-4eff-491d-98f1-decc09a61eff)
 
-You can find a detailed explanation [on my website](https://www.haraldkreuzer.net/en/news/Using-Sunton-MaTouch-ESP32-S3-7-inch-displays-with-LVGL-and-ESP-IDF) 
-
-
+You can find a detailed description [on my website](https://www.haraldkreuzer.net/en/news/esp32-based-control-slave-clocks-l293d-h-bridge-driver) 
