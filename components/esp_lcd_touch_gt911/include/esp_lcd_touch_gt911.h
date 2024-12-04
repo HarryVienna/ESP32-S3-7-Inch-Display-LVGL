@@ -38,7 +38,7 @@ esp_err_t esp_lcd_touch_new_i2c_gt911(const esp_lcd_panel_io_handle_t io, const 
  * @note Interrupt gpio is high level, address is 0x14.
  *
  */
-#define ESP_LCD_TOUCH_IO_I2C_GT911_ADDRESS          (0x5D)
+#define ESP_LCD_TOUCH_IO_I2C_GT911_ADDRESS          (0x15)
 #define ESP_LCD_TOUCH_IO_I2C_GT911_ADDRESS_BACKUP   (0x14)
 
 /**

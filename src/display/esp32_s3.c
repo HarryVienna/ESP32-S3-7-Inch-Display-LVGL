@@ -15,7 +15,8 @@
 // --- Choose your display ---
 //#include "sunton_7inch_800x480.h"
 //#include "matouch_7inch_800x480.h"
-#include "matouch_7inch_1024x600.h"
+//#include "matouch_7inch_1024x600.h"
+#include "matouch_2_1inch_480x480.h"
 
 
 // #define CONFIG_DOUBLE_FB 1
